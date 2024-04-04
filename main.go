@@ -9,7 +9,7 @@ import (
 	"github.com/remisb/go-nethttp/middleware"
 )
 
-const port = 9000
+const port = 8080
 
 func productHandler(w http.ResponseWriter, r *http.Request) {
 	id := r.PathValue("id")

@@ -4,6 +4,7 @@ Test project to demonstrate new `net.http` features in go version 1.22. It shows
 
 ## Todo
 
+- ~~DONE initial docker container support~~
 - docker container for development
 - customer web UI 
 - admin web UI

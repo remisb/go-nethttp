@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
-	"docker-go/middleware"
 	"log"
 	"net/http"
 	"strconv"
+
+	"github.com/remisb/go-nethttp/middleware"
 )
 
 const port = 9000

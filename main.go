@@ -13,7 +13,7 @@ const port = 8080
 
 func productHandler(w http.ResponseWriter, r *http.Request) {
 	id := r.PathValue("id")
-	w.Write([]byte("Details for Product #" + id))
+	w.Write([]byte("<H1>Product #" + id + "</H1>"))
 }
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {

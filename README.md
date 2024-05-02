@@ -6,7 +6,7 @@ Test project to demonstrate new `net.http` features in go version 1.22. It shows
 
 - ~~DONE git initial docker container support~~
 - IN PROGRESS move main.go starting file into cmd/server folder
-    - for docker and /cmd/app support, review code from https://github.com/valantonini/go-coffee-service/tree/main repo and make adjustments.
+    - for docker and /cmd/app support, review code from github.com/valantonini/go-coffee-service repo and make adjustments.
 - ~~DONE docker container for development based on info from https://www.youtube.com/watch?v=zfNqp85g5JM ~~
     - ~~add `docker compose watch` support for improved Dev Experience.~~
 - customer web UI 
